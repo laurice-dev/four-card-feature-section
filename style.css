@@ -43,15 +43,15 @@ ul[role="list"] {
   list-style: none;
 }
 
-body {
+html {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   max-height: 100%;
   padding: 1rem;
-  font-family: var(--ff-poppins);
 
+  font-family: var(--ff-poppins);
   font-size: 0.875rem;
   font-size: clamp(0.875rem, 0.84rem + 0.18vw, var(--fs-medium));
   line-height: 1.4;
@@ -72,7 +72,7 @@ h1 {
     font-weight: var(--fw-600);
     letter-spacing: 0.25;
     line-height: 1.4;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
   }
 }
 
